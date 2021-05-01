@@ -21,6 +21,7 @@
   font-weight: 600;
   color: white;
 }
+
 .sm {
   padding: 6px 12px;
 }
@@ -58,4 +59,7 @@
 .danger:hover,
 .danger:focus {
   background: var(--dangerDark);
+}
+.my-icon {
+  font-size: 10px;
 }
