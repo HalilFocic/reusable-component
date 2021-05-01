@@ -5,14 +5,8 @@ import LocalGroceryStoreIcon from "@material-ui/icons/LocalGroceryStore";
 function App() {
   return (
     <div className="App">
-      <Button
-        size="md"
-        color="primary"
-        startIcon="local_grocery_store"
-        endIcon="navigation"
-        disableShadow
-      >
-        Default
+      <Button size="md" color="primary" disableShadow disabled>
+        Disabled
       </Button>
     </div>
   );
