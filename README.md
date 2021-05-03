@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://ibb.co/c1pmcwV)
+![screenshot](https://i.ibb.co/Y3Kr7Xw/image.png)
 
 ### Built With
 
