@@ -2,7 +2,7 @@ import React from "react";
 import "./Button.css";
 const COLORS = ["default", "primary", "secondary", "danger"];
 const SIZES = ["sm", "md", "lg"];
-const VARIANTS = ["text", "outline"];
+const VARIANTS = ["text", "outline", "fill"];
 const Button = (
   {
     children,
@@ -21,30 +21,12 @@ const Button = (
 ) => {
   const buttonColor = COLORS.includes(color) ? color : "default";
   const buttonSize = SIZES.includes(size) ? size : "md";
-  const buttonShadow = disableShadow ? "" : "shadow";
-  const buttonVariant = VARIANTS.includes(variant) ? variant : "";
-  if (disabled) {
-    return (
-      <button
-        className={`btn ${buttonSize} ${buttonShadow}  ${variant} disabled`}
-        onClick={onClick}
-        type="button"
-        disabled
-      >
-        <span>
-          {startIcon ? (
-            <i className="material-icons my-icon">{startIcon}</i>
-          ) : null}
-          {children}
-          {endIcon ? <i className="material-icons my-icon">{endIcon}</i> : null}
-        </span>
-      </button>
-    );
-  }
-
+  const buttonShadow = disableShadow ? "" : "btn-disable-shadow";
+  const buttonVariant = VARIANTS.includes(variant) ? variant : "fill";
+  console.log(buttonVariant);
   return (
     <button
-      className={`btn ${buttonColor} ${buttonSize} ${buttonShadow}  ${variant}`}
+      className={`btn-${buttonColor} btn-${buttonSize} btn-${buttonShadow}  btn-${buttonVariant}`}
       onClick={onClick}
       type="button"
     >

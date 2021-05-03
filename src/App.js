@@ -5,11 +5,11 @@ import LocalGroceryStoreIcon from "@material-ui/icons/LocalGroceryStore";
 function App() {
   return (
     <div className="App">
-      <Button>Default</Button>
-      <Button size="md" variant="outline">
+      <Button color="primary">Default</Button>
+      <Button color="primary" size="md" variant="outline">
         Default
       </Button>
-      <Button size="md" variant="text">
+      <Button color="primary" size="md" variant="text" disabled>
         Default
       </Button>
     </div>
