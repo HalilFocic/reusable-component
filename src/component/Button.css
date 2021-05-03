@@ -22,6 +22,7 @@ button {
   -webkit-box-shadow: 0px 3px 5px -5px black;
   box-shadow: 0px 3px 5px -5px black;
   box-sizing: border-box;
+  display: inline;
 }
 
 button {
@@ -37,15 +38,15 @@ button > .material {
 }
 
 button.btn-sm {
-  padding: 10px 10px;
+  padding: 6px 12px;
 }
 
 button.btn-md {
-  padding: 12px 13px;
+  padding: 8px 16px;
 }
 
 button.btn-lg {
-  padding: 14px 17px;
+  padding: 11px 22px;
 }
 
 button.btn-disabled {

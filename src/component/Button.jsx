@@ -23,7 +23,6 @@ const Button = (
   const buttonSize = SIZES.includes(size) ? size : "md";
   const buttonShadow = disableShadow ? "" : "btn-disable-shadow";
   const buttonVariant = VARIANTS.includes(variant) ? variant : "fill";
-  console.log(buttonVariant);
   return (
     <button
       className={`btn-${buttonColor} btn-${buttonSize} btn-${buttonShadow}  btn-${buttonVariant}`}
