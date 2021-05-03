@@ -191,3 +191,8 @@ button.btn-danger.btn-text {
 button.btn-danger.btn-text:not(.btn-disabled):hover {
   background-color: rgba(211, 47, 47, 0.2);
 }
+.my-icon {
+  font-size: 15px;
+  position: relative;
+  top: 1px;
+}

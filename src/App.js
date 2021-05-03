@@ -5,30 +5,30 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="container-row">
-          <Button color="primary">Default</Button>
+          <Button color="primary">Primary</Button>
           <Button color="primary" size="md" variant="outline">
-            Default
+            Primary
           </Button>
           <Button color="primary" size="md" variant="text">
-            Default
+            Primary
           </Button>
         </div>
         <div className="container-row">
-          <Button color="secondary">Default</Button>
+          <Button color="secondary">Secondary</Button>
           <Button color="secondary" size="md" variant="outline">
-            Default
+            Secondary
           </Button>
           <Button color="secondary" size="md" variant="text">
-            Default
+            Secondary
           </Button>
         </div>
         <div className="container-row">
-          <Button color="danger">Default</Button>
+          <Button color="danger">Danger</Button>
           <Button color="danger" size="md" variant="outline">
-            Default
+            Danger
           </Button>
           <Button color="danger" size="md" variant="text">
-            Default
+            Danger
           </Button>
         </div>
         <div className="container-row">
@@ -53,9 +53,15 @@ function App() {
           </Button>
         </div>
         <div className="container-row">
-          <Button color="danger">Default</Button>
-          <Button color="danger">Default</Button>
-          <Button color="danger">Disabled</Button>
+          <Button color="danger" startIcon="settings">
+            Start Icon
+          </Button>
+          <Button color="danger" endIcon="settings">
+            End Icon
+          </Button>
+          <Button color="danger" disabled>
+            Disabled
+          </Button>
         </div>
       </div>
     </div>

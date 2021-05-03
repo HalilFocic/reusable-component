@@ -23,9 +23,10 @@ const Button = (
   const buttonSize = SIZES.includes(size) ? size : "md";
   const buttonShadow = disableShadow ? "" : "btn-disable-shadow";
   const buttonVariant = VARIANTS.includes(variant) ? variant : "fill";
+  const buttonDisabled = disabled ? "btn-disabled" : "";
   return (
     <button
-      className={`btn-${buttonColor} btn-${buttonSize} btn-${buttonShadow}  btn-${buttonVariant}`}
+      className={`btn-${buttonColor} btn-${buttonSize} btn-${buttonShadow}  btn-${buttonVariant} ${buttonDisabled}`}
       onClick={onClick}
       type="button"
     >
