@@ -1,5 +1,7 @@
 import React from "react";
 import "./Button.css";
+// All variations of colors,sizes and variants
+
 const COLORS = ["default", "primary", "secondary", "danger"];
 const SIZES = ["sm", "md", "lg"];
 const VARIANTS = ["text", "outline", "fill"];
